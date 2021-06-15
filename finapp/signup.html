@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    <script src="cleave.min.js"></script>
+    <title>Signup | Makenga</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form name="signup" onsubmit="return setUser();">
+        <div id="firstname-error-box">
+        <label for="firstName">First Name:</label>
+        <input type='text' id="firstName" required><br>
+        </div>
+
+        <div id="lastname-error-box">
+        <label for="lastName">Last Name:</label>
+        <input type='text' id="lastName" required><br>
+        </div>
+
+        <div id="email-error-box">
+        <label for="userEmail">Email:</label>
+        <input type="email" id="userEmail" required><br>
+        </div>
+
+        <div id="phoneNumber-error-box">
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="input-mobile" required><br>
+        </div>
+
+        <div id="username-error-box">
+        <label for="userName">username:</label>
+        <input type="text" id="userName" required><br>
+        </div>
+
+        <div id="password-error-box">
+        <label for='password'>Password:</label>
+        <input type='password' id="password" required><br>
+        </div>
+
+        <input type='submit' value="Submit">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
